@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ui.home.AddTareaFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datosTarea"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_NombreTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombreTarea"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/et_DescripcionTarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/descripcionTarea"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <CheckBox
+        android:id="@+id/chk_Completa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:text="@string/tareaCompletada"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <Button
+            android:id="@+id/btAddFecha"
+            android:layout_width="173dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="@string/fechaTarea"
+            app:icon="@drawable/ic_date" />
+
+        <EditText
+            android:id="@+id/et_FechaTarea"
+            android:layout_width="171dp"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:textIsSelectable="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btAgregaTarea"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="@string/agregarTarea" />
+
+    <EditText
+        android:id="@+id/valorCheck"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:visibility="gone"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

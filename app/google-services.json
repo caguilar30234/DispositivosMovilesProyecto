@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "201387002918",
+    "project_id": "administradortareas-964b0",
+    "storage_bucket": "administradortareas-964b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201387002918:android:822fb71edf73b86630aae7",
+        "android_client_info": {
+          "package_name": "com.ufide.proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201387002918-k2q17uggmpt0d0ujmki1m6pq33vlk77a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYJ1culpJnZp9eTCdpOb3lrsU7gNHMjFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201387002918-k2q17uggmpt0d0ujmki1m6pq33vlk77a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

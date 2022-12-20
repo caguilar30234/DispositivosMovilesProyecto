@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="AdminTarea">Admnistrador de Tareas</string>
+    <string name="inicio">Iniciar el Admnistrador de Tareas</string>
+    <string name="usuario">Usuario</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="perfil">Perfil</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="cerrarSesion">Cerrar Sesión</string>
+    <string name="Registrarse">Regístrate</string>
+    <string name="datosTarea">Ingrese los datos de la tarea</string>
+    <string name="LoginError">Usuario o contraseña inválido</string>
+    <string name="et_correo">usuario@email.com</string>
+    <string name="et_clave">Mi_contraseña</string>
+    <string name="agregarTarea">Agregar Tarea</string>
+    <string name="actualizarTarea">Actualizar Tarea</string>
+    <string name="eliminarTarea">Eliminar Tarea</string>
+    <string name="nombreTarea">Nombre de la tarea</string>
+    <string name="fechaTarea">Fecha límite</string>
+    <string name="tareaCompletada">Completada</string>
+    <string name="descripcionTarea">Descripción</string>
+    <string name="ms_AddTarea">Tarea Agregada</string>
+    <string name="ms_UpdateTarea">Tarea Actualizada</string>
+    <string name="ms_DeleteTarea">Tarea Eliminada</string>
+    <string name="ms_FaltaNombre">Debe agregar al nemos el nombre de la tarea</string>
+    <string name="ms_FaltanValores">Faltan valores</string>
+    <string name="msg_seguro_borrado">¿Está seguro de eliminar la tarea: </string>
+    <string name="msg_si">Si</string>
+    <string name="msg_no">No</string>
+    <string name="msg_tarea_deleted">Tarea Eliminada</string>
+    <string name="ms_CantRemoveTarea">No se ha podido eliminar la tarea</string>
+    <string name="tomarFoto">Tomar fotografía</string>
+
+    <string name="title_activity_principal">Principal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Otros</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
